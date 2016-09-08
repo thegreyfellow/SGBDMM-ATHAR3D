@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Projet ATHAR 3D - Composition de modèles 3D</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body {
+				font-family: Monospace;
+				background-color: #f0f0f0;
+				margin: 0px;
+				overflow: hidden;
+			}
+		</style>
+	</head>
+	<body>
+    <input id="models" type="text" name="name" value="<%=scene_models%>" hidden>
+
+
+    <script src="scripts/build/three.js"></script>
+    <script src="scripts/build/TrackballControls.js"></script>
+    <script src="scripts/exporters/OBJExporter.js"></script>
+    <script src="scripts/FileSaver.js"></script>
+    <script src="scripts/composition.js"></script>
+
+	</body>
+</html>

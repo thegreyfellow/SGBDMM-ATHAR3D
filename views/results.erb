@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Projet ATHAR 3D - Visualiseur de modeles 3D</title>
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body onload="init()">
+    <div>
+    <h2>Projet ATHAR 3D - Visualiseur de modeles 3D</h2>
+
+    <p style="color:#A00; font-weight: bold" id="message"></p>
+
+    <p><b>utiliser la souris pour faire une rotation et un zoom sur le modele autour de ces axes x y et z.<br></p>
+
+    <div style="float:left">
+       <canvas width=600 height=600 id="cnvs" style="background-color:black"></canvas>
+       <p>this is where the footer is gonna be.</p>
+    </div>
+
+    <div style="float:left; margin-left:2cm">
+
+      <p style="text-indent: -1cm">
+        <b>Voici le resulta de la recherche sur "<%=keyword%>":</b><br>
+        <div class="center-block">
+          <% models.each do |model| %>
+            <label>
+              <input type="radio" name=model id="model<%=model.id%>" onchange="installModel('<%=model.title%>.json')"> <%=model.title%>
+            </label><br>
+          <% end %>
+        </div>
+        <div class="composition" style="display: inline-block;">
+        <b style="text-indent: -1cm">Choisissez les models que vous voulez:</b><br>
+          <form class="scene" action="/results" method="POST">
+            <% models.each do |model| %>
+              <label>
+                <input type="checkbox" name="checked[]" value="<%=model.title%>"> <%=model.title%>
+              </label><br>
+            <% end %>
+            <input type="submit" name="name" value="Composition">
+          </form>
+        </div>
+      </p>
+    </div>
+  </div>
+
+  </body>
+  <script src="scripts/three.js"></script>
+  <script src="scripts/OrbitControls.js"></script>
+  <script src="scripts/app.js"></script>
+</html>
