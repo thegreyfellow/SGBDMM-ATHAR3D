@@ -15,7 +15,7 @@
 
     <div style="float:left">
        <canvas width=600 height=600 id="cnvs" style="background-color:black"></canvas>
-       <p>this is where the footer is gonna be.</p>
+       <p></p>
     </div>
 
     <div style="float:left; margin-left:2cm">
@@ -25,7 +25,7 @@
         <div class="center-block">
           <% models.each do |model| %>
             <label>
-              <input type="radio" name=model id="model<%=model.id%>" onchange="installModel('<%=model.title%>.json')"> <%=model.title%>
+              <input type="radio" name=model id="model<%=model.id%>" onchange="installModel('<%=model.title%>.json')"> <%=model.title.split('_').join(' ')%>
             </label><br>
           <% end %>
         </div>

@@ -12,10 +12,10 @@ post '/' do
   keyword = params[:keyword]
   # searching for models with keyword in them.
   models = MyModel.all(:keywords.like => "%#{keyword}%")
-  unless models.empty?
+  if !models.empty?
     erb :results, locals: { 'models' => models, 'keyword' => keyword }
   else
-    erb :model_not_found
+    erb :model_not_found, locals: { 'keyword' => keyword }
   end
 end
 post '/results' do
