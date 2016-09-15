@@ -12,7 +12,11 @@ post '/' do
   keyword = params[:keyword]
   # searching for models with keyword in them.
   models = MyModel.all(:keywords.like => "%#{keyword}%")
-  erb :results, locals: { 'models' => models, 'keyword' => keyword }
+  unless models.empty?
+    erb :results, locals: { 'models' => models, 'keyword' => keyword }
+  else
+    erb :model_not_found
+  end
 end
 post '/results' do
   scene_models = params[:checked].join('-')

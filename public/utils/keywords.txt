@@ -1,0 +1,77 @@
+Arc_lisse_oratoire
+Mots clés 
+arc,arcs,lisse,lisses,oratoire,salle,priere
+ 
+
+Arc_lisse_sahn
+Mots clés 
+arc,arcs,lisse,oratoire,petit,grand,sahn,sahns
+
+Arc_lobes_egaux
+Mots clés 
+arc,arcs,oratoire,salle,priere,lobe,lobes,egaux
+
+Arc_lobes_trefles
+Mots clés 
+arc,arcs,oratoire,salle,priere,lobe,lobes,trefle,trefles
+
+Arc_stalactites
+Mots clés 
+arc,arcs,lisse,oratoire,stalactite,stalactites,salle,priere
+
+decoration
+Mots clés 
+mur,externe,decoration,decorations,decors,minaret
+
+Grand_pillier
+Mots clés 
+grand,pilier,extreme,extremes,nef,nefs,support,supports
+
+petit_pillier
+Mots clés 
+petit,pilier,salle,priere,secondaire,nefs,nef,support,supports
+
+Petite_toiture_1
+Mots clés 
+toiture,toitures,petites,petite,nef,nefs,extreme,extremes
+
+Petite_toiture_2
+Mots clés 
+toiture,toitures,petites,petite,nef,nefs
+
+Petite_toiture_oratoire
+Mots clés 
+toiture,toitures,petites,petite,nef,nefs,secondaires,secondaires,oratoire,salle,priere
+
+Support_droit_grand_pilier
+Mots clés 
+piliers,pilier,arc,arcs,support,supports,droit,droite,grand
+
+Support_gauche_grand_pilier
+Mots clés 
+piliers,pilier,arc,arcs,support,supports,gauche,grand,grande
+
+Support_pilier_gauche
+Mots clés 
+piliers,pilier,arc,arcs,support,supports,gauche,petit,petite
+
+Support_pilier_droit
+Mots clés 
+piliers,pilier,arc,arcs,support,supports,droit,droite,petit,petite
+
+Support_petite_toiture
+Mots clés 
+toiture,toitures,petite,support,supports,soutien
+
+Support_grande_toiture
+Mots clés 
+toiture,toitures,grand,grande,support,supports,soutien
+
+Toiture_nef_centrale
+Mots clés 
+toiture,toitures,grand,grande,nef,nefs,centrale,oratoire,salle,priere,centre,principale
+
+tuile
+Mots clés 
+toiture,toitures,grand,grande,petit,petite,nef,nefs,centrale,oratoire,salle,priere,decors,decoration,mur,externe
+
