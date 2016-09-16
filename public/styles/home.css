@@ -5,3 +5,8 @@
 .pform {
   padding: 2em;
 }
+
+body {
+  background-image: url("../images/pattern.png");
+  background-size: 40% 200%;
+}
