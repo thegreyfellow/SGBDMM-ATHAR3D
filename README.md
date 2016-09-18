@@ -16,7 +16,8 @@ This project does not have a gemfilefor now, but it only uses:
 * sqlite3 (latest)
 
 You will need the sqlite3 on you system, and thats it, now launch sinatra with this:
-`ruby main.rb`
+
+`$ ruby main.rb`
 
 ### Who do I talk to? ###
 
