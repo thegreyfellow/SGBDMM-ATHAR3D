@@ -1,29 +1,23 @@
-# README # (NEED TO CHANGE IT LATER)
+# README # 
 
-This README would normally document whatever steps are necessary to get your application up and running.
+### SGBDMM-ATHAR3D ###
 
-### What is this repository for? ###
+This app was a part of a academic graduation project, I learnd JavaScript and some ThreeJS cool stuff, and Ruby with Sinatra on the way out.
+It's still in version 0.1.0, and needs a lot of contribution.
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+This project does not have a gemfilefor now, but it only uses:
+* ruby => 2.3.0
+* sinatra => 1.4.7
+* datamapper (latest)
+* datamapper_sqlite (latest)
+* sqlite3 (latest)
 
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
+You will need the sqlite3 on you system, and thats it, now launch sinatra with this:
+* ruby main.rb
 
 ### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+* for now you can just pm me if you need anything, or just fork and pull request if you have any changes to do I would be very greatfull :)
