@@ -48,32 +48,6 @@ function init() {
 
   scene.add( light );
 
-  // var geometry = new THREE.BoxGeometry( 40, 40, 40 );
-  //
-  // for ( var i = 0; i < 200; i ++ ) {
-  //
-  //   var object = new THREE.Mesh( geometry, new THREE.MeshLambertMaterial( { color: Math.random() * 0xffffff } ) );
-  //
-  //   object.position.x = Math.random() * 1000 - 500;
-  //   object.position.y = Math.random() * 600 - 300;
-  //   object.position.z = Math.random() * 800 - 400;
-  //
-  //   object.rotation.x = Math.random() * 2 * Math.PI;
-  //   object.rotation.y = Math.random() * 2 * Math.PI;
-  //   object.rotation.z = Math.random() * 2 * Math.PI;
-  //
-  //   object.scale.x = Math.random() * 2 + 1;
-  //   object.scale.y = Math.random() * 2 + 1;
-  //   object.scale.z = Math.random() * 2 + 1;
-  //
-    // object.castShadow = true;
-    // object.receiveShadow = true;
-    //
-    // scene.add( object );
-    //
-    // objects.push( object );
-    // }
-
   // adding self models
   data = document.getElementById('models');
   var array = data.value.split('-')
@@ -97,7 +71,7 @@ function init() {
   info.style.top = '10px';
   info.style.width = '100%';
   info.style.textAlign = 'center';
-  info.innerHTML = '<h1>Projet ATHAR 3D - Composition de modÃ¨les 3D</h1> - <a class="link" id="export" href="#" onclick="exportToObj()">Telecharger ce modÃ¨le</a>';
+  info.innerHTML = '<h1>Projet ATHAR 3D - Composition de modèles 3D</h1> - <a class="link" id="export" href="#" onclick="exportToObj()">Telecharger ce modèle</a>';
   container.appendChild( info );
 
   // event listeners for mouse stats
