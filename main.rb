@@ -8,6 +8,7 @@ require 'sinatra/reloader'
 get '/' do
   erb :home
 end
+
 post '/' do
   keyword = params[:keyword]
   # searching for models with keyword in them.
@@ -18,10 +19,12 @@ post '/' do
     erb :model_not_found, locals: { 'keyword' => keyword }
   end
 end
+
 post '/results' do
   scene_models = params[:checked].join('-')
   erb :scene, locals: { 'scene_models' => scene_models }
 end
+
 not_found do
   erb :not_found
 end
